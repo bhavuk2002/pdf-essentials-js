@@ -6,12 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["split-pdf", "merge-pdf", "url-to-pdf", "html-to-pdf", "pdf-essentials", "pdfs", "node", "js"],
+  "keywords": [
+    "split-pdf",
+    "merge-pdf",
+    "url-to-pdf",
+    "html-to-pdf",
+    "pdf-essentials",
+    "pdfs",
+    "node",
+    "js"
+  ],
   "author": "Bhavuk Mittal",
   "license": "ISC",
   "dependencies": {
     "pdf-lib": "^1.17.1",
-    "puppeteer": "^18.0.5",
-    "puppeteer-core": "^18.0.5"
+    "puppeteer": "^18.0.5"
   }
 }
