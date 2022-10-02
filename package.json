@@ -1,8 +1,8 @@
 {
-  "name": "merge-pdfs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "pdf-essentials-js",
+  "version": "1.0.1",
+  "description": "This is a npm package provide with functionality of merge, split PDFs and many more.",
+  "main": "pdf-essentials.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "awesome-unoconv": "^1.0.1",
-    "custom-soffice-to-pdf": "^1.0.0",
-    "html2pdf.js": "^0.10.1",
-    "jspdf": "^2.5.1",
-    "path": "^0.12.7",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^18.0.5",
     "puppeteer-core": "^18.0.5"
