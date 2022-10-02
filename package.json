@@ -1,13 +1,13 @@
 {
   "name": "pdf-essentials-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a npm package provide with functionality of merge, split PDFs and many more.",
   "main": "pdf-essentials.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["split-pdf", "merge-pdf", "url-to-pdf", "html-to-pdf", "pdf-essentials", "pdfs", "node", "js"],
+  "author": "Bhavuk Mittal",
   "license": "ISC",
   "dependencies": {
     "pdf-lib": "^1.17.1",
