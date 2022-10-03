@@ -20,7 +20,7 @@ This a npm package for [PDF Essentials](https://www.pdfessentials.com). Merge, S
 Any number of PDFs can be merged into single PDF.
 ### async node.js example
 ```js
-const pdfEssentials = require('./pdf-essentials');
+const pdfEssentials = require('./pdf-essentials-js');
 const newPDF = new pdfEssentials();
 
 (async () => {
@@ -49,7 +49,7 @@ const newPDF = new pdfEssentials();
 
 ### async node.js example
 ```js
-const pdfEssentials = require('./pdf-essentials');
+const pdfEssentials = require('./pdf-essentials-js');
 const pdfFunctions = new pdfEssentials();
 
 (async () => {
@@ -66,7 +66,7 @@ const pdfFunctions = new pdfEssentials();
 
 ### async node.js example
 ```js
-const pdfEssentials = require('./pdf-essentials');
+const pdfEssentials = require('./pdf-essentials-js');
 const pdfFunctions = new pdfEssentials();
 
 (async ()=>{
@@ -102,7 +102,7 @@ const pdfFunctions = new pdfEssentials();
 ### async node.js example
 
 ```js
-const pdfEssentials = require('./pdf-essentials');
+const pdfEssentials = require('./pdf-essentials-js');
 const pdfFunctions = new pdfEssentials();
 
 (async ()=>{
