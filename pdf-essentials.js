@@ -57,7 +57,7 @@ class pdfEssentials{
         const src = await this._getInputAsBuffer(input)
         const srcDoc = await PDFDocument.load(src,this.loadOptions)
         
-        const pageCount = this.doc.getPageCount()
+        const pageCount = srcDoc.getPageCount()
         if(to >= pageCount || from >= pageCount){
             throw new Error(`Invalid function parameter. The document doesnt have enough pages. (from: ${from}, to: ${to}, pages: ${pageCount},)`)
         }
@@ -233,7 +233,7 @@ class pdfEssentials{
     }
 
     async saveAsBuffer () {
-        await this._ensureDoc()
+        await this._checkDoc()
         const uInt8Array = await this.doc.save()
         return Buffer.from(uInt8Array)
     }
